@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contect us</title>
+    <link rel="stylesheet" href="../css/base.css">
+    <link rel="stylesheet" href="../css/contect.css">
+    <!-- Fontawesome Link for Icons -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.3.0/css/all.min.css">
+</head>
+
+<body>
+    <!-- header -->
+    <header>
+        <nav class="navbar" role="navigation" aria-label="Main Navigation">
+            <h2 class="logo">
+                <a href="#"><img src="../image/logo.svg" width="60" alt="Website Logo"></a>
+            </h2>
+            <input type="checkbox" id="menu-toggler" aria-expanded="false">
+            <label for="menu-toggler" role="button" id="hamburger-btn" aria-label="Toggle Navigation Menu">
+                <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="white" width="24px" height="24px">
+                    <path d="M0 0h24v24H0z" fill="none" />
+                    <path d="M3 18h18v-2H3v2zm0-5h18V11H3v2zm0-7v2h18V6H3z" />
+                </svg>
+            </label>
+            <ul class="all-links">
+                <li><a href="../index.html">Home</a></li>
+                <li><a href="../page/contact.html">Contact Us</a></li>
+            </ul>
+        </nav>
+    </header>
+    <!-- Contact Section -->
+    <section class="contact" id="contact">
+        <h2>Contact Us</h2>
+        <p>Reach out to us for any inquiries or feedback.</p>
+        <div class="row">
+            <!-- Contact Form -->
+            <div class="col form">
+                <form action="contact.php" method="POST">
+                    <label for="name">Name</label>
+                    <input type="text" id="name" name="name" placeholder="Your Name" required>
+
+                    <label for="email">Email</label>
+                    <input type="email" id="email" name="email" placeholder="Your Email" required>
+
+                    <label for="message">Message</label>
+                    <textarea id="message" name="message" placeholder="Your Message" required></textarea>
+
+                    <button id="submit" type="submit" aria-label="Send your message">Send Message</button>
+                </form>
+            </div>
+
+            <!-- Contact Information -->
+            <div class="col information">
+                <div class="contact-details">
+                    <p><i class="fas fa-map-marker-alt"></i> 123 Campsite Avenue, Wilderness, CA 98765</p>
+                    <p><i class="fas fa-envelope"></i> <a
+                            href="mailto:GLAMOUR_CAMPING@gmail.com">GLAMOUR_CAMPING@gmail.com</a></p>
+                    <p><i class="fas fa-phone"></i> <a href="tel:+11234567890">(000) 456-7890</a></p>
+                    <p><i class="fas fa-clock"></i> Monday - Friday: 10:00 AM - 9:00 PM</p>
+                    <p><i class="fas fa-clock"></i> Saturday: 10:00 AM - 3:00 PM</p>
+                    <p><i class="fas fa-clock"></i> Sunday: Closed</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!--Footer-->
+    <footer>
+        <div>
+            <p><strong>Your Next Adventure Starts with Us!</strong></p>
+            <nav aria-label="Footer Navigation">
+                <a href="../index.html">Home</a>
+                <a href="#contact">Contact</a>
+            </nav>
+        </div>
+    </footer>
+
+
+</body>
+
+</html>

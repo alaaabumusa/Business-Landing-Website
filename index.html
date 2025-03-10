@@ -1,0 +1,148 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>GLAMOUR CAMPING</title>
+    <link rel="stylesheet" href="./css/base.css">
+    <link rel="stylesheet" href="./css/styles.css">
+    <!-- Fontawesome Link for Icons -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.3.0/css/all.min.css">
+</head>
+
+<body>
+    <!-- header -->
+    <header>
+        <nav class="navbar" role="navigation" aria-label="Main Navigation">
+            <p class="logo">
+                <a href="#"><img src="./image/logo.svg" width="60" alt="Website Logo"></a>
+            </p>
+            <input type="checkbox" id="menu-toggler" aria-expanded="false" aria-controls="nav-menu">
+            <label for="menu-toggler" role="button" id="hamburger-btn" aria-label="Toggle Navigation Menu">
+                <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="white" width="24px" height="24px">
+                    <path d="M0 0h24v24H0z" fill="none" />
+                    <path d="M3 18h18v-2H3v2zm0-5h18V11H3v2zm0-7v2h18V6H3z" />
+                </svg>
+            </label>
+            <ul class="all-links" id="nav-menu">
+                <li><a href="#home">Home</a></li>
+                <li><a href="#services">Services</a></li>
+                <li><a href="#about">About Us</a></li>
+                <li><a href="./page/contact.html">Contact Us</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <!-- Home Page-->
+    <section class="homepage" id="home">
+        <div class="content">
+            <div class="text">
+                <h1>GLAMOUR CAMPING</h1>
+                <p>Camp is more than just a word, it’s an experience!</p>
+                <a href="#services" aria-label="Go to the services section">Our Services</a>
+            </div>
+        </div>
+    </section>
+
+    <!--Services-->
+    <section class="services" id="services">
+        <h2>Our Services</h2>
+        <p>Explore our wide range of camping gear services.</p>
+        <ul class="cards">
+            <li class="card" aria-label="Tents service">
+                <figure>
+                    <h3>Tents</h3>
+                    <img src="./image/tents.jpeg" alt="A variety of camping tents">
+                    <figcaption>Camping tents for your next outdoor adventure.</figcaption>
+                </figure>
+            </li>
+            <li class="card" aria-label="Sleeping Bags service">
+                <figure>
+                    <h3>Sleeping Bags</h3>
+                    <img src="./image/sleepingBags.jpeg" alt="A collection of camping sleeping bags">
+                    <figcaption>Cozy sleeping bags to keep you warm during your camping trip.</figcaption>
+                </figure>
+            </li>
+            <li class="card" aria-label="Camp Stoves service">
+                <figure>
+                    <h3>Camp Stoves</h3>
+                    <img src="./image/campStoves.jpeg" alt="Portable camp stoves">
+                    <figcaption>Compact camp stoves for cooking outdoors.</figcaption>
+                </figure>
+            </li>
+            <li class="card" aria-label="Backpacks service">
+                <figure>
+                    <h3>Backpacks</h3>
+                    <img src="./image/backpacks.jpeg" alt="Camping backpacks">
+                    <figcaption>Durable backpacks to carry all your camping gear.</figcaption>
+                </figure>
+            </li>
+            <li class="card" aria-label="Camp Chairs service">
+                <figure>
+                    <h3>Camp Chairs</h3>
+                    <img src="./image/campChairs.jpeg" alt="Comfortable camp chairs">
+                    <figcaption>Comfortable and portable chairs for your camping comfort.</figcaption>
+                </figure>
+            </li>
+            <li class="card" aria-label="Camp Lights service">
+                <figure>
+                    <h3>Camp Lights</h3>
+                    <img src="./image/campLights.jpeg" alt="Camping lights for outdoor use">
+                    <figcaption>Bright camping lights for your nighttime adventures.</figcaption>
+                </figure>
+            </li>
+        </ul>
+    </section>
+    
+    
+    <!--About Us-->
+    <section class="about" id="about">
+        <h2>About Us</h2>
+        <p>Explore the story behind Glamour Camping and our commitment to offering top-quality camping services.</p>
+
+        <div class="row company-info">
+            <h3>Our Story</h3>
+            <p>At Glamour Camping, we have spent over a decade curating the best camping gear and services for outdoor
+                enthusiasts. From high-quality tents to camping essentials, we ensure that every adventurer is equipped
+                for their journey. Our dedication to excellence in both product quality and customer service makes us a
+                trusted partner for outdoor experiences.</p>
+        </div>
+
+        <div class="row mission-vision">
+            <h3>Our Mission</h3>
+            <p>Glamour Camping’s mission is to provide outdoor enthusiasts with premium gear that enhances their
+                experience in nature. We aim to deliver innovative, durable, and reliable products to help our customers
+                create lasting memories on every adventure.</p>
+
+            <h3>Our Vision</h3>
+            <p>Our vision is to become the leading brand for campers worldwide, offering a wide selection of top-tier
+                camping gear. We aspire to inspire people to embrace the beauty of the great outdoors and provide them
+                with the tools to make their camping trips unforgettable.</p>
+        </div>
+
+        <div class="row team" aria-label="Our Team">
+            <h3>Our Team</h3>
+            <ul>
+                <li>Ahmed Ali - Founder and CEO</li>
+                <li>Mariam Hassan - Gear Specialist</li>
+                <li>Omar Fawzi - Customer Representative</li>
+                <li>Lina Youssef - Operations Manager</li>
+            </ul>
+        </div>
+    </section>
+
+
+    <!--Footer-->
+    <footer>
+        <div>
+            <p><strong>Your Next Adventure Starts with Us!</strong></p>
+            <nav aria-label="Footer Navigation">
+                <a href="../index.html">Home</a>
+                <a href="./page/contact.html">Contact</a>
+            </nav>
+        </div>
+    </footer>
+</body>
+
+</html>
